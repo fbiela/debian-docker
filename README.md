@@ -22,7 +22,7 @@ iot@virtual:~$ sudo reboot
 ```bash
 iot@virtual:~$ docker run hello-world
 ```
-https://github.com/fbiela/debian-docker.git
+
 #### start docker
 
 ```bash
@@ -37,10 +37,10 @@ iot@virtual:~$ sudo systemctl stop docker
 
 #### check dockerrequiriments
 
-```bashhttps://github.com/fbiela/debian-docker.git
+```bash
 iot@virtual:~$ sudo systemctl status docker
 ```
-https://github.com/fbiela/debian-docker.git
+
 --------------------
 ### Run docker image
 --------------------
@@ -53,12 +53,12 @@ iot@virtual:~$ ./docker_build
 
 #### check imagen
 
-```bashhttps://github.com/fbiela/debian-docker.git
+```bash
 iot@virtual:~$ docker image ls
 ```
 
 ---------------------------------
-### [MiniNet](http://mininhttps://github.com/fbiela/debian-docker.gitet.org)
+### [MiniNet](http://mininet.org)
 ---------------------------------
 
 #### list avaiable versions
@@ -68,7 +68,7 @@ iot@virtual:~$ cd mininet
 iot@virtual:~$ git tag
 ```
 
-#### or wherever version you wish to install
+#### or wherever version you wish to installrequiriments
 
 ```bash
 iot@virtual:~$ git checkout -b 2.2.2
@@ -78,9 +78,9 @@ iot@virtual:~$ cd ..
 #### install mininet
 
 ```bash
-iot@virtual:~$ sudo mininet/uhttps://github.com/fbiela/debian-docker.gittil/install.sh -a
+iot@virtual:~$ sudo mininet/util/install.sh -a
 ```
-https://github.com/fbiela/debian-docker.git
+
 #### testing mininet
 
 ```bash
@@ -92,7 +92,7 @@ iot@virtual:~$ sudo mn -c
 ### [RYU SDN](https://osrg.github.io/ryu/index.html)
 ----------------------------------------------------
 
-#### pip installationhttps://github.com/fbiela/debian-docker.git
+#### pip installation
 
 ```bash
 iot@virtual:~$ sudo pip install ryu
@@ -109,7 +109,7 @@ iot@virtual:~$ sudo apt install -y build-essential python-dev libssl-dev libxml2
 
 ```bash
 iot@virtual:~$ cd ryu
-iot@virtual:~$ pip install .https://github.com/fbiela/debian-docker.git
+iot@virtual:~$ pip install .
 iot@virtual:~$ pip install -r tools/optional-requires
 ```
 -----------
@@ -119,4 +119,3 @@ iot@virtual:~$ pip install -r tools/optional-requires
 ##### Frederico Sales <<frederico.sales@engenharia.ufjf.br>>
 ##### Engenharia Computacional - [UFJF](http://ufjf.br)
 -------------------------------------------------------------
-https://github.com/fbiela/debian-docker.git
