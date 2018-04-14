@@ -22,7 +22,7 @@ iot@virtual:~$ sudo reboot
 ```bash
 iot@virtual:~$ docker run hello-world
 ```
-
+https://github.com/fbiela/debian-docker.git
 #### start docker
 
 ```bash
@@ -40,7 +40,7 @@ iot@virtual:~$ sudo systemctl stop docker
 ```bashhttps://github.com/fbiela/debian-docker.git
 iot@virtual:~$ sudo systemctl status docker
 ```
-
+https://github.com/fbiela/debian-docker.git
 --------------------
 ### Run docker image
 --------------------
@@ -58,7 +58,7 @@ iot@virtual:~$ docker image ls
 ```
 
 ---------------------------------
-### [MiniNet](http://mininet.org)
+### [MiniNet](http://mininhttps://github.com/fbiela/debian-docker.gitet.org)
 ---------------------------------
 
 #### list avaiable versions
@@ -68,7 +68,7 @@ iot@virtual:~$ cd mininet
 iot@virtual:~$ git tag
 ```
 
-#### or wherever version you wish to installrequirimentshttps://github.com/fbiela/debian-docker.git
+#### or wherever version you wish to install
 
 ```bash
 iot@virtual:~$ git checkout -b 2.2.2
@@ -78,7 +78,7 @@ iot@virtual:~$ cd ..
 #### install mininet
 
 ```bash
-iot@virtual:~$ sudo mininet/util/install.sh -a
+iot@virtual:~$ sudo mininet/uhttps://github.com/fbiela/debian-docker.gittil/install.sh -a
 ```
 https://github.com/fbiela/debian-docker.git
 #### testing mininet
@@ -89,8 +89,8 @@ iot@virtual:~$ sudo mn -c
 ```
 
 ----------------------------------------------------
-### [RYU SDN](https://osrg.github.io/ryu/index.html)https://github.com/fbiela/debian-docker.git
-----------------------------------------------------https://github.com/fbiela/debian-docker.git
+### [RYU SDN](https://osrg.github.io/ryu/index.html)
+----------------------------------------------------
 
 #### pip installationhttps://github.com/fbiela/debian-docker.git
 
@@ -119,3 +119,4 @@ iot@virtual:~$ pip install -r tools/optional-requires
 ##### Frederico Sales <<frederico.sales@engenharia.ufjf.br>>
 ##### Engenharia Computacional - [UFJF](http://ufjf.br)
 -------------------------------------------------------------
+https://github.com/fbiela/debian-docker.git
