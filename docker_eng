@@ -1,0 +1,37 @@
+#!/bin/bash
+# adding docker to a debian box
+# Frederico Sales <frederico.sales@engenharia.ufjf.br>
+# 201765803B
+#
+# run docker as non admin user (!root):
+# first we create a group docker
+# sudo groupadd docker
+#
+# then we add $USER
+# sudo useradd $USER
+#
+# at last we add $USER to group docker
+# sudo usermod -aG docker $USER
+#
+# verify installation:
+# docker run hello-world
+#
+# start:
+# systemctl start docker
+#
+# stop:
+# systemctl stop docker
+#
+# check:
+# systemctl status docker
+#
+sudo apt -y remove docker docker-engine docker.io;
+sudo apt update;
+sudo apt-get install -y apt-transport-https ca-certificates wget software-properties-common;
+wget https://download.docker.com/linux/debian/gpg;
+sudo apt-key add gpg;
+echo "deb [arch=amd64] https://download.docker.com/linux/debian $(lsb_release -cs) stable" | sudo tee -a /etc/apt/sources.list.d/docker.list;
+sudo apt update;
+sudo apt-cache policy docker-ce;
+sudo apt-get -y install docker-ce;
+
