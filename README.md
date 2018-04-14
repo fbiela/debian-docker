@@ -68,7 +68,7 @@ iot@virtual:~$ cd mininet
 iot@virtual:~$ git tag
 ```
 
-#### or wherever version you wish to installrequiriments
+#### or wherever version you wish to install requiriments
 
 ```bash
 iot@virtual:~$ git checkout -b 2.2.2
