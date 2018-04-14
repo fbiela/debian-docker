@@ -37,7 +37,7 @@ iot@virtual:~$ sudo systemctl stop docker
 
 #### check dockerrequiriments
 
-```bash
+```bashhttps://github.com/fbiela/debian-docker.git
 iot@virtual:~$ sudo systemctl status docker
 ```
 
@@ -53,7 +53,7 @@ iot@virtual:~$ ./docker_build
 
 #### check imagen
 
-```bash
+```bashhttps://github.com/fbiela/debian-docker.git
 iot@virtual:~$ docker image ls
 ```
 
@@ -68,7 +68,7 @@ iot@virtual:~$ cd mininet
 iot@virtual:~$ git tag
 ```
 
-#### or wherever version you wish to installrequiriments
+#### or wherever version you wish to installrequirimentshttps://github.com/fbiela/debian-docker.git
 
 ```bash
 iot@virtual:~$ git checkout -b 2.2.2
@@ -80,7 +80,7 @@ iot@virtual:~$ cd ..
 ```bash
 iot@virtual:~$ sudo mininet/util/install.sh -a
 ```
-
+https://github.com/fbiela/debian-docker.git
 #### testing mininet
 
 ```bash
@@ -89,10 +89,10 @@ iot@virtual:~$ sudo mn -c
 ```
 
 ----------------------------------------------------
-### [RYU SDN](https://osrg.github.io/ryu/index.html)
-----------------------------------------------------
+### [RYU SDN](https://osrg.github.io/ryu/index.html)https://github.com/fbiela/debian-docker.git
+----------------------------------------------------https://github.com/fbiela/debian-docker.git
 
-#### pip installation
+#### pip installationhttps://github.com/fbiela/debian-docker.git
 
 ```bash
 iot@virtual:~$ sudo pip install ryu
@@ -109,7 +109,7 @@ iot@virtual:~$ sudo apt install -y build-essential python-dev libssl-dev libxml2
 
 ```bash
 iot@virtual:~$ cd ryu
-iot@virtual:~$ pip install .
+iot@virtual:~$ pip install .https://github.com/fbiela/debian-docker.git
 iot@virtual:~$ pip install -r tools/optional-requires
 ```
 -----------
