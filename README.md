@@ -64,6 +64,7 @@ iot@virtual:~$ docker image ls
 #### list avaiable versions
 
 ```bash
+iot@virtual:~$ git clone git://github.com/mininet/mininet
 iot@virtual:~$ cd mininet
 iot@virtual:~$ git tag
 ```
@@ -108,6 +109,7 @@ iot@virtual:~$ sudo apt install -y build-essential python-dev libssl-dev libxml2
 
 
 ```bash
+iot@virtual:~$ git clone git://github.com/osrg/ryu.git
 iot@virtual:~$ cd ryu
 iot@virtual:~$ pip install .
 iot@virtual:~$ pip install -r tools/optional-requires
